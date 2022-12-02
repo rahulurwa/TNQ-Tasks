@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON TO TABLE</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="divBlock">
+      <form>
+        <div class="form-group">
+          <select name="dropdown" id="dropdown">
+            <option value="Select Status">Select Status</option>
+            <option value="active">Active</option>
+            <option value="retired">Retired</option>
+            <option value="unknown">Unknown</option>
+            <option value="destroyed">Destroyed</option>
+          </select>
+        </div>
+        <div class="btn">
+          <button id="loadBtn">Load</button>
+        </div>
+      </form>
+    </div>
+    <div>
+      <table id="result">
+        <tr>
+          <th
+            colspan="3"
+            style="
+              background-color: rgba(0, 0, 255, 0.555);
+              color: white;
+              padding: 4px;
+            "
+          >
+            showing for "Active"
+          </th>
+        </tr>
+        <tr>
+          <th>Capsule ID</th>
+          <th>No of Missions</th>
+          <th>Details</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

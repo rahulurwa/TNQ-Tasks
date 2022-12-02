@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+section article {
+  width: 50%;
+  background-color: #fff;
+  padding: 10px;
+  margin: 50px auto;
+}
+textarea {
+  background-color: #eee;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+button {
+  background-color: yellowgreen;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid yellowgreen;
+}
